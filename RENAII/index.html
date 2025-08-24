@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RENAI — African Rebirth to Global Horizons</title>
+  <meta name="description" content="Renai empowers African students with mentorship and tools to access international opportunities. Goal: 10,000 students by 2035." />
+  <meta name="theme-color" content="#e11d48" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            renai: {
+              red: '#e11d48', // rose-600 vibe to match logo
+              dark: '#111827',
+            }
+          },
+          fontFamily: {
+            display: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+            body: ['Inter', 'ui-sans-serif', 'system-ui']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    /* Decorative underline for section headings */
+    .title-underline { position: relative; display: inline-block; }
+    .title-underline::after { content: ""; position: absolute; left: 0; bottom: -6px; width: 60%; height: 4px; background: #e11d48; border-radius: 9999px; }
+  </style>
+</head>
+<body class="font-body text-gray-800 bg-white scroll-smooth">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#home" class="flex items-center gap-3">
+          <!-- Replace src with your hosted logo path -->
+          <img src="RENAI%20logo.jpg" alt="RENAI logo" class="h-9 w-auto" />
+          <span class="font-extrabold tracking-tight text-xl">RENAI</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8 font-medium">
+          <a href="#mission" class="hover:text-rose-600">Mission</a>
+          <a href="#how" class="hover:text-rose-600">How it Works</a>
+          <a href="#pillars" class="hover:text-rose-600">Pillars</a>
+          <a href="#impact" class="hover:text-rose-600">Impact</a>
+          <a href="#join" class="hover:text-rose-600">Join</a>
+        </nav>
+        <a href="#apply" class="inline-flex items-center rounded-2xl bg-renai-red px-4 py-2 text-white font-semibold shadow-sm hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-rose-400">Apply</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-white to-rose-50"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="inline-flex items-center text-xs uppercase tracking-widest font-semibold text-rose-600 bg-rose-50 rounded-full px-3 py-1">African Rebirth to Global Horizons</p>
+        <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold leading-tight">
+          Empowering African Students to Access <span class="text-rose-600">Global Opportunities</span>
+        </h1>
+        <p class="mt-5 text-lg text-gray-600">Renai mentors, equips, and opens doors. We bridge the gap for talented students who lack access or know‑how to apply—so they can step onto global stages.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#apply" class="rounded-2xl bg-renai-red px-6 py-3 text-white font-semibold shadow hover:opacity-90">Apply as a Student</a>
+          <a href="#mentor" class="rounded-2xl border border-gray-300 px-6 py-3 font-semibold hover:border-rose-400 hover:text-rose-600">Become a Mentor</a>
+        </div>
+        <div class="mt-8 flex items-center gap-6 text-sm text-gray-500">
+          <div><span class="text-2xl font-bold text-rose-600">10,000</span> students by 2035</div>
+          <div>Mentorship • Tools • Global Pathways</div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] rounded-3xl border border-gray-100 bg-white shadow-sm p-6 flex items-center justify-center">
+          <!-- Fallback logo frame if image not set -->
+          <div class="text-center">
+            <img src="RENAI%20logo.jpg" alt="RENAI logo" class="mx-auto h-40 w-auto"/>
+            <p class="mt-4 text-sm text-gray-500"> IF NOT YOU THEN WHO - IF NOT AFRICA THEN WHERE?</p>
+          </div>
+        </div>
+        <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow px-4 py-3 border border-gray-100">
+          <p class="text-sm"><span class="font-semibold text-rose-600">Renai</span> is a catalyst for African talent to shine globally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission" class="py-16 lg:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold title-underline">Our Mission</h2>
+      <p class="mt-6 text-lg text-gray-600 max-w-3xl">We exist to unlock pathways for African students into international programs, scholarships, fellowships, internships, and research opportunities through world‑class mentorship and practical tools.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Mentorship</h3>
+          <p class="mt-2 text-gray-600">One‑to‑one and cohort-based guidance from experienced mentors and alumni of global programs.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Tools</h3>
+          <p class="mt-2 text-gray-600">Templates, application checklists, essay support, interview prep, and opportunity trackers.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold text-lg">Access</h3>
+          <p class="mt-2 text-gray-600">Direct links to curated international opportunities and partner organizations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section id="how" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold title-underline">How It Works</h2>
+      <ol class="mt-8 grid md:grid-cols-4 gap-6">
+        <li class="p-6 rounded-2xl bg-white border shadow-sm">
+          <span class="text-3xl font-extrabold text-rose-600">1</span>
+          <h3 class="mt-3 font-semibold">Apply</h3>
+          <p class="text-gray-600">Students submit interest, goals, and areas of opportunity.</p>
+        </li>
+        <li class="p-6 rounded-2xl bg-white border shadow-sm">
+          <span class="text-3xl font-extrabold text-rose-600">2</span>
+          <h3 class="mt-3 font-semibold">Match</h3>
+          <p class="text-gray-600">We match you to mentors and curated opportunities.</p>
+        </li>
+        <li class="p-6 rounded-2xl bg-white border shadow-sm">
+          <span class="text-3xl font-extrabold text-rose-600">3</span>
+          <h3 class="mt-3 font-semibold">Equip</h3>
+          <p class="text-gray-600">Access toolkits, writing support, and interview practice.</p>
+        </li>
+        <li class="p-6 rounded-2xl bg-white border shadow-sm">
+          <span class="text-3xl font-extrabold text-rose-600">4</span>
+          <h3 class="mt-3 font-semibold">Launch</h3>
+          <p class="text-gray-600">Submit strong applications and step onto global stages.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Pillars -->
+  <section id="pillars" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold title-underline">Program Pillars</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Opportunity Navigation</h3>
+          <p class="mt-2 text-gray-600">Scholarships, fellowships, exchange programs, internships, and research—organized and explained.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Application Excellence</h3>
+          <p class="mt-2 text-gray-600">CV/Resume clinics, statement of purpose bootcamps, recommendation strategy.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Interview Confidence</h3>
+          <p class="mt-2 text-gray-600">Mock interviews, feedback loops, and cultural readiness.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Global Community</h3>
+          <p class="mt-2 text-gray-600">Peers and mentors across Africa and the world to sustain momentum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact / Stats -->
+  <section id="impact" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between gap-6 flex-wrap">
+        <h2 class="text-3xl font-extrabold title-underline">Our 2035 Goal</h2>
+        <p class="text-gray-600 max-w-xl">Renai aims to enable <span class="font-semibold text-rose-600">10,000</span> African students to access global opportunities by 2035 through structured mentorship and practical tools.</p>
+      </div>
+      <div class="mt-10 grid sm:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-white border shadow-sm text-center">
+          <div class="text-4xl font-extrabold text-rose-600">10k</div>
+          <p class="mt-2 text-gray-600">Students supported</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white border shadow-sm text-center">
+          <div class="text-4xl font-extrabold text-rose-600">50+</div>
+          <p class="mt-2 text-gray-600">Mentor network</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white border shadow-sm text-center">
+          <div class="text-4xl font-extrabold text-rose-600">100+</div>
+          <p class="mt-2 text-gray-600">Partner opportunities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join / Forms -->
+  <section id="join" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold title-underline">Join Renai</h2>
+      <div class="mt-8 grid lg:grid-cols-2 gap-8">
+        <!-- Student Apply -->
+        <div id="apply" class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-semibold text-lg">Apply as a Student</h3>
+          <p class="mt-2 text-gray-600">Tell us about your goals and what opportunities you’re seeking.</p>
+          <form class="mt-4 grid gap-4" onsubmit="event.preventDefault(); fakeSubmit('student');">
+            <input required type="text" placeholder="Full name" class="w-full rounded-xl border px-4 py-3" />
+            <input required type="email" placeholder="Email" class="w-full rounded-xl border px-4 py-3" />
+            <select class="w-full rounded-xl border px-4 py-3">
+              <option>Scholarships</option>
+              <option>Fellowships</option>
+              <option>Internships</option>
+              <option>Exchanges</option>
+              <option>Research</option>
+            </select>
+            <textarea rows="4" placeholder="Share your goals" class="w-full rounded-xl border px-4 py-3"></textarea>
+            <button class="rounded-2xl bg-renai-red px-5 py-3 text-white font-semibold hover:opacity-90">Submit</button>
+            <p id="student-msg" class="text-sm text-green-700 hidden">✅ Thanks! We’ll be in touch soon.</p>
+          </form>
+        </div>
+        <!-- Mentor Apply -->
+        <div id="mentor" class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-semibold text-lg">Become a Mentor</h3>
+          <p class="mt-2 text-gray-600">Support the next generation by guiding applications and interviews.</p>
+          <form class="mt-4 grid gap-4" onsubmit="event.preventDefault(); fakeSubmit('mentor');">
+            <input required type="text" placeholder="Full name" class="w-full rounded-xl border px-4 py-3" />
+            <input required type="email" placeholder="Email" class="w-full rounded-xl border px-4 py-3" />
+            <input type="text" placeholder="Affiliation / Organization" class="w-full rounded-xl border px-4 py-3" />
+            <textarea rows="4" placeholder="How can you support students?" class="w-full rounded-xl border px-4 py-3"></textarea>
+            <button class="rounded-2xl border border-gray-300 px-5 py-3 font-semibold hover:border-rose-400 hover:text-rose-600">Express Interest</button>
+            <p id="mentor-msg" class="text-sm text-green-700 hidden">✅ Thank you! We’ll reach out with next steps.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold title-underline">FAQ</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <details class="p-6 rounded-2xl bg-white border shadow-sm group">
+          <summary class="font-semibold cursor-pointer">Who can apply?</summary>
+          <p class="mt-2 text-gray-600">Students and recent graduates from across Africa seeking international opportunities.</p>
+        </details>
+        <details class="p-6 rounded-2xl bg-white border shadow-sm group">
+          <summary class="font-semibold cursor-pointer">Is there a fee?</summary>
+          <p class="mt-2 text-gray-600">Core mentorship is free for selected students. Some optional services may be subsidized by partners.</p>
+        </details>
+        <details class="p-6 rounded-2xl bg-white border shadow-sm group">
+          <summary class="font-semibold cursor-pointer">How soon will I hear back?</summary>
+          <p class="mt-2 text-gray-600">Within 2–3 weeks after submitting your form.</p>
+        </details>
+        <details class="p-6 rounded-2xl bg-white border shadow-sm group">
+          <summary class="font-semibold cursor-pointer">Can organizations partner with Renai?</summary>
+          <p class="mt-2 text-gray-600">Yes—contact us to co‑host cohorts, sponsor tools, or offer placements.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="RENAI%20logo.jpg" alt="RENAI logo" class="h-8 w-auto" />
+          <span class="font-extrabold">RENAI</span>
+        </div>
+        <p class="mt-3 text-sm text-gray-500">African Rebirth to Global Horizons</p>
+        <p class="mt-1 text-sm text-gray-500">© <span id="year"></span> Renai Program. All rights reserved.</p>
+      </div>
+      <form class="justify-self-end w-full max-w-sm" onsubmit="event.preventDefault(); fakeSubmit('news');">
+        <label class="block text-sm font-medium">Get updates</label>
+        <div class="mt-2 flex rounded-2xl border overflow-hidden">
+          <input type="email" placeholder="you@example.com" class="flex-1 px-4 py-3 outline-none" required />
+          <button class="bg-renai-red px-5 text-white font-semibold">Subscribe</button>
+        </div>
+        <p id="news-msg" class="text-sm text-green-700 hidden mt-2">🎉 Subscribed! Thank you.</p>
+      </form>
+    </div>
+  </footer>
+
+  <script>
+    // Simple demo handlers — replace with your backend later
+    function fakeSubmit(which){
+      const map = { student: 'student-msg', mentor: 'mentor-msg', news: 'news-msg' };
+      const id = map[which];
+      if (!id) return;
+      const el = document.getElementById(id);
+      el.classList.remove('hidden');
+      setTimeout(()=> el.classList.add('hidden'), 4000);
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
